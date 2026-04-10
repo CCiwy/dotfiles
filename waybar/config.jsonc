@@ -1,0 +1,86 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "spacing": 10,
+
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["tray", "pulseaudio", "battery"],
+
+    "hyprland/workspaces": {
+        "all-outputs": false,
+        "active-only": true,
+        "sort-by": "number",
+        "format": "{icon}",
+
+        "persistent-workspaces": {
+            "DP-1": [1,2,3,4,5,6,7,8,9,10],
+            "DP-2": [11,12,13,14,15,16,17,18,19,20],
+            "DP-9": [21,22,23,24,25,26,27,28,29,30]
+        },
+
+        "format-icons": {
+            "1": "1",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "0",
+
+            "11": "1",
+            "12": "2",
+            "13": "3",
+            "14": "4",
+            "15": "5",
+            "16": "6",
+            "17": "7",
+            "18": "8",
+            "19": "9",
+            "20": "0",
+
+            "21": "1",
+            "22": "2",
+            "23": "3",
+            "24": "4",
+            "25": "5",
+            "26": "6",
+            "27": "7",
+            "28": "8",
+            "29": "9",
+            "30": "0"
+        }
+    },
+    "tray": {
+        "icon-site": 24,
+        "show-passive-items": true,
+    },
+
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "{:%A, %d.%m.%Y  %H:%M}"
+    },
+
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-muted": "mute",
+        "format-icons": {
+            "default": ["vol", "vol"]
+        },
+        "scroll-step": 5,
+        "on-click": "pavucontrol"
+    },
+
+    "battery": {
+        "format": "{capacity}%",
+        "format-charging": "{capacity}%+",
+        "states": {
+            "warning": 30,
+            "critical": 15
+        }
+    }
+}
