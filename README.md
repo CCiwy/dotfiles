@@ -3,8 +3,8 @@
 
 **Desktop** 
 [wayland](https://wayland.freedesktop.org/) + [hyprland](https://hypr.land/) 
-[waybar](https://github.com/alexays/waybar) _statusbar_ 
-[mako](https://github.com/emersion/mako) _notifications_ 
+[waybar](https://github.com/alexays/waybar) (_statusbar_) 
+[mako](https://github.com/emersion/mako) (_notifications_)
 
 **Terminal** 
 [ghostty](https://ghostty.org) 
