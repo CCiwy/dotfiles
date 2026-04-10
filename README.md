@@ -1,12 +1,12 @@
 **OS** 
-[https://archlinux.org/](arch linux)
+[arch linux](https://archlinux.org/)
 **Desktop**
-[https://wayland.freedesktop.org/](wayland) + [https://hypr.land/](hyprland)
-[https://github.com/alexays/waybar](waybar) _statusbar_
-[https://github.com/emersion/mako](mako) _notifications_
+[wayland](https://wayland.freedesktop.org/) + [hyprland](https://hypr.land/)
+[waybar](https://github.com/alexays/waybar) _statusbar_
+[mako](https://github.com/emersion/mako) _notifications_
 **Terminal**
-[https://ghostty.org](ghostty)  
-[https://www.zsh.org/](zsh)
+[ghostty](https://ghostty.org)  
+[zsh](https://www.zsh.org/)
 **Code Editor**
-[https://neovim.io/](neovim) - with a bunch of plugins
+[neovim](https://neovim.io/) - with a bunch of plugins
 
