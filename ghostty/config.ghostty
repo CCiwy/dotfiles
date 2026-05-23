@@ -1,3 +1,7 @@
+# shell integration: fixes cursor tracking on wrapped input lines
+shell-integration = zsh
+shell-integration-features = cursor,title,sudo
+
 # new splits on CTRL + ALT + ARROW
 keybind = ctrl+alt+arrow_down=new_split:down
 keybind = ctrl+alt+arrow_up=new_split:up

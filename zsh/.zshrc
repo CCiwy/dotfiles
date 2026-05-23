@@ -20,6 +20,9 @@ fi
 git() {
     print -ru2 -- "GIT CALLED: $PWD :: git $*"
     command git "$@"
+# Re-render the ZLE buffer after every terminal resize
+TRAPWINCH() {
+  zle && zle .reset-prompt && zle -R
 }
 
 # Load fzf key bindings and completion
