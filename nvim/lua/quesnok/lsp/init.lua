@@ -1,3 +1,5 @@
+require('mason').setup()
+
 require('quesnok.lsp.clang')
 require('quesnok.lsp.lua_lsp')
 require('quesnok.lsp.odin')
@@ -12,7 +14,7 @@ local capabilities = cmp_nvim_lsp.default_capabilities()
 -- LSP servers enabled by default
 local servers = {
     'clang',
-    'jedi_language_server',
+    'basedpyright',
     'lua_ls',
     'eslint',
     'zls',
