@@ -33,3 +33,8 @@ vim.lsp.config('*', {
     on_attach = require('quesnok.lsp.common').on_attach_client,
 })
 
+vim.api.nvim_create_user_command('LspRestart', function()
+    vim.lsp.stop_client(vim.lsp.get_clients({ bufnr = 0 }))
+    vim.cmd('edit')
+end, {})
+
