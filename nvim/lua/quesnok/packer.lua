@@ -78,5 +78,7 @@ return require('packer').startup(function(use)
         end,
     })
     use {'MunifTanjim/eslint.nvim'}
+
+    use {'thePrimeagen/99'}
 end)
 
